@@ -1,10 +1,9 @@
 # CSE111-Lab
 
-## LAB-01
-
+## LAB-01 
+### [Question](https://git.io/JvFnO)
 <table>
 <tr><th>Lab 01 </th><th>Lab 02</th><th>Lab 03</th></tr>
-<tr><th>[Question](https://git.io/JvFnO) </th><th>Question</th><th>Question</th></tr>
 <tr>
   <td>
     

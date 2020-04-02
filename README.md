@@ -1,4 +1,4 @@
-<!-- # CSE111-Lab -->
+# CSE111-Lab
 <table>
   <tbody>
   <tr>
@@ -16,9 +16,13 @@
   </tbody>
 </table>
 <table>
-  <th>Task</th><th>Problem</th><th>Solution</th>
-  <th>Task</th><th>Problem</th><th>Solution</th>
+  <th></th><th>Lab 01</th><th></th>
+  <th></th><th>Lab 02</th><th></th>
   <tbody>
+    <tr>
+      <th>Task</th><th>Problem</th><th>Solution</th>
+      <th>Task</th><th>Problem</th><th>Solution</th>
+    </tr> 
     <tr>
       <td>Task 01</td><td>Number Line</td><td ><a href="https://git.io/JvFcF">Java</a></td>
       <td>Task 01</td><td>.asdasdasda.</td><td><a href="https://git.io/JvFcF">Java</a></td>

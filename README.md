@@ -15,102 +15,34 @@
 </table>
 
 <table>
-<tr><th>Lab 01 </th><th>Lab 02</th><th>Lab 03</th></tr>
+<tr><th>Lab 01</th></tr>
 <tr>
-  <td>
-    
-| Task | Problem | Solution |
-| :---: |:---: | :---: |
-| Task 01 | | [Java]() |
-| Task 02 | | [Java](https://git.io/JvF39) |
-| Task 03 | | [Java](https://git.io/JvF37) |
-| Task 04 | | [Java](https://git.io/JvF35) |
-| Task 05 | | [Java](https://git.io/JvF3d) |
-| Task 06 | | [Java](https://git.io/JvF3b) |
-| Task 07 | | [Java](https://git.io/JvF3p) |
-| Task 08 | | [Java](https://git.io/JvF3h) |
-| Task 09 | | [Java](https://git.io/JvF3h) |
-| Task 10 | | [Java](https://git.io/JvF3h) |
-| Task 11 | | [Java](https://git.io/JvF3h) |
-| Task 12 | | [Java](https://git.io/JvF3h) |
-| Task 13 | | [Java](https://git.io/JvF3h) |
-| Task 14 | | [Java](https://git.io/JvF39) |
-| Task 15 | | [Java](https://git.io/JvF37) |
-| Task 16 | | [Java](https://git.io/JvF35) |
-| Task 17 | | [Java](https://git.io/JvF3d) |
-| Task 18 | | [Java](https://git.io/JvF3b) |
-| Task 19 | | [Java](https://git.io/JvF3p) |
-| Task 20 | | [Java](https://git.io/JvF3h) |
-| Task 21 | | [Java](https://git.io/JvF3h) |
-| Task 22 | | [Java](https://git.io/JvF3h) |
-| Task 23 | | [Java](https://git.io/JvF3h) |
-| Task 24 | | [Java](https://git.io/JvF3h) |
-| Task 25 | | [Java](https://git.io/JvF3h) |
-    
-</td>
-<td>
-
-| Task | Problem | Solution |
-| :---: |:---: | :---: |
-| Task 01 | | [Java]() |
-| Task 02 | | [Java](https://git.io/JvF39) |
-| Task 03 | | [Java](https://git.io/JvF37) |
-| Task 04 | | [Java](https://git.io/JvF35) |
-| Task 05 | | [Java](https://git.io/JvF3d) |
-| Task 06 | | [Java](https://git.io/JvF3b) |
-| Task 07 | | [Java](https://git.io/JvF3p) |
-| Task 08 | | [Java](https://git.io/JvF3h) |
-| Task 09 | | [Java](https://git.io/JvF3h) |
-| Task 10 | | [Java](https://git.io/JvF3h) |
-| Task 11 | | [Java](https://git.io/JvF3h) |
-| Task 12 | | [Java](https://git.io/JvF3h) |
-| Task 13 | | [Java](https://git.io/JvF39) |
-| Task 14 | | [Java](https://git.io/JvF39) |
-| Task 15 | | [Java](https://git.io/JvF37) |
-| Task 16 | | [Java](https://git.io/JvF35) |
-| Task 17 | | [Java](https://git.io/JvF3d) |
-| Task 18 | | [Java](https://git.io/JvF3b) |
-| Task 19 | | [Java](https://git.io/JvF3p) |
-| Task 20 | | [Java](https://git.io/JvF3h) |
-| Task 21 | | [Java](https://git.io/JvF3h) |
-| Task 22 | | [Java](https://git.io/JvF3h) |
-| Task 23 | | [Java](https://git.io/JvF3h) |
-| Task 24 | | [Java](https://git.io/JvF3h) |
-| Task 25 | | [Java](https://git.io/JvF3h) |
-
-
-</td>
-<td>
-
-| Task | Problem | Solution |
-| :---: |:---: | :---: |
-| Task 01 | | [Java]() |
-| Task 02 | | [Java](https://git.io/JvF39) |
-| Task 03 | | [Java](https://git.io/JvF37) |
-| Task 04 | | [Java](https://git.io/JvF35) |
-| Task 05 | | [Java](https://git.io/JvF3d) |
-| Task 06 | | [Java](https://git.io/JvF3b) |
-| Task 07 | | [Java](https://git.io/JvF3p) |
-| Task 08 | | [Java](https://git.io/JvF3h) |
-| Task 09 | | [Java](https://git.io/JvF3h) |
-| Task 10 | | [Java](https://git.io/JvF3h) |
-| Task 11 | | [Java](https://git.io/JvF3h) |
-| Task 12 | | [Java](https://git.io/JvF3h) |
-| Task 13 | | [Java](https://git.io/JvF39) |
-| Task 14 | | [Java](https://git.io/JvF39) |
-| Task 15 | | [Java](https://git.io/JvF37) |
-| Task 16 | | [Java](https://git.io/JvF35) |
-| Task 17 | | [Java](https://git.io/JvF3d) |
-| Task 18 | | [Java](https://git.io/JvF3b) |
-| Task 19 | | [Java](https://git.io/JvF3p) |
-| Task 20 | | [Java](https://git.io/JvF3h) |
-| Task 21 | | [Java](https://git.io/JvF3h) |
-| Task 22 | | [Java](https://git.io/JvF3h) |
-| Task 23 | | [Java](https://git.io/JvF3h) |
-| Task 24 | | [Java](https://git.io/JvF3h) |
-| Task 25 | | [Java](https://git.io/JvF3h) |
-
-</td>
-</tr> 
+  <th>Task</th><th>Problem</th><th>Solution</th>
+    <tr><td>Task 01</td><td>..</td><td><a href="https://git.io/JvFcF">Java</a></td></tr>
+    <tr><td>Task 02</td><td>..</td><td><a href="https://git.io/JvFcF">Java</a></td></tr>
+    <tr><td>Task 03</td><td>..</td><td><a href="https://git.io/JvFcF">Java</a></td></tr>
+    <tr><td>Task 04</td><td>..</td><td><a href="https://git.io/JvFcF">Java</a></td></tr>
+    <tr><td>Task 05</td><td>..</td><td><a href="https://git.io/JvFcF">Java</a></td></tr>
+    <tr><td>Task 06</td><td>..</td><td><a href="https://git.io/JvFcF">Java</a></td></tr>
+    <tr><td>Task 07</td><td>..</td><td><a href="https://git.io/JvFcF">Java</a></td></tr>
+    <tr><td>Task 08</td><td>..</td><td><a href="https://git.io/JvFcF">Java</a></td></tr>
+    <tr><td>Task 09</td><td>..</td><td><a href="https://git.io/JvFcF">Java</a></td></tr>
+    <tr><td>Task 10</td><td>..</td><td><a href="https://git.io/JvFcF">Java</a></td></tr>
+    <tr><td>Task 11</td><td>..</td><td><a href="https://git.io/JvFcF">Java</a></td></tr>
+    <tr><td>Task 12</td><td>..</td><td><a href="https://git.io/JvFcF">Java</a></td></tr>
+    <tr><td>Task 13</td><td>..</td><td><a href="https://git.io/JvFcF">Java</a></td></tr>
+    <tr><td>Task 14</td><td>..</td><td><a href="https://git.io/JvFcF">Java</a></td></tr>
+    <tr><td>Task 15</td><td>..</td><td><a href="https://git.io/JvFcF">Java</a></td></tr>
+    <tr><td>Task 16</td><td>..</td><td><a href="https://git.io/JvFcF">Java</a></td></tr>
+    <tr><td>Task 17</td><td>..</td><td><a href="https://git.io/JvFcF">Java</a></td></tr>
+    <tr><td>Task 18</td><td>..</td><td><a href="https://git.io/JvFcF">Java</a></td></tr>
+    <tr><td>Task 19</td><td>..</td><td><a href="https://git.io/JvFcF">Java</a></td></tr>
+    <tr><td>Task 20</td><td>..</td><td><a href="https://git.io/JvFcF">Java</a></td></tr>
+    <tr><td>Task 21</td><td>..</td><td><a href="https://git.io/JvFcF">Java</a></td></tr>
+    <tr><td>Task 22</td><td>..</td><td><a href="https://git.io/JvFcF">Java</a></td></tr>
+    <tr><td>Task 23</td><td>..</td><td><a href="https://git.io/JvFcF">Java</a></td></tr>
+    <tr><td>Task 24</td><td>..</td><td><a href="https://git.io/JvFcF">Java</a></td></tr>
+    <tr><td>Task 25</td><td>..</td><td><a href="https://git.io/JvFcF">Java</a></td></tr>
+  </tr>
 </table>
 <!---| Day | []() | [Java]() |--->

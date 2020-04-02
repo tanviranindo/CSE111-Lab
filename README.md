@@ -2,8 +2,8 @@
 
 ## LAB-01
 | Task | Problem | Solution |
-| :---: |:--[QUESTION]--: | :---: |
-| Day 0	| :--[QUESTION]--:	| [Java]() |
+| :---: |:---: | :---: |
+| Day 0	| :---:	| [Java]() |
 | Day 1 | :--[QUESTION]--: | [Java](https://git.io/JvF39) |
 | Day 2 | [Operators](https://www.hackerrank.com/challenges/30-operators) | [Java](https://git.io/JvF37) |
 | Day 3 | [Intro to Conditional Statements](https://www.hackerrank.com/challenges/30-conditional-statements) | [Java](https://git.io/JvF35) |

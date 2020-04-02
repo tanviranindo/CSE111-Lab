@@ -4,6 +4,7 @@
 
 <table>
 <tr><th>Lab 01 </th><th>Lab 02</th><th>Lab 03</th></tr>
+<tr><th>[Question](https://git.io/JvFnO) </th><th>Question</th><th>Question</th></tr>
 <tr>
   <td>
     
@@ -21,7 +22,19 @@
 | Task 10 | | [Java](https://git.io/JvF3h) |
 | Task 11 | | [Java](https://git.io/JvF3h) |
 | Task 12 | | [Java](https://git.io/JvF3h) |
-| Task 12 | | [Java](https://git.io/JvF3h) |
+| Task 13 | | [Java](https://git.io/JvF3h) |
+| Task 14 | | [Java](https://git.io/JvF39) |
+| Task 15 | | [Java](https://git.io/JvF37) |
+| Task 16 | | [Java](https://git.io/JvF35) |
+| Task 17 | | [Java](https://git.io/JvF3d) |
+| Task 18 | | [Java](https://git.io/JvF3b) |
+| Task 19 | | [Java](https://git.io/JvF3p) |
+| Task 20 | | [Java](https://git.io/JvF3h) |
+| Task 21 | | [Java](https://git.io/JvF3h) |
+| Task 22 | | [Java](https://git.io/JvF3h) |
+| Task 23 | | [Java](https://git.io/JvF3h) |
+| Task 24 | | [Java](https://git.io/JvF3h) |
+| Task 25 | | [Java](https://git.io/JvF3h) |
     
 </td>
 <td>
@@ -40,7 +53,20 @@
 | Task 10 | | [Java](https://git.io/JvF3h) |
 | Task 11 | | [Java](https://git.io/JvF3h) |
 | Task 12 | | [Java](https://git.io/JvF3h) |
-| Task 12 | | [Java](https://git.io/JvF3h) |
+| Task 13 | | [Java](https://git.io/JvF39) |
+| Task 14 | | [Java](https://git.io/JvF39) |
+| Task 15 | | [Java](https://git.io/JvF37) |
+| Task 16 | | [Java](https://git.io/JvF35) |
+| Task 17 | | [Java](https://git.io/JvF3d) |
+| Task 18 | | [Java](https://git.io/JvF3b) |
+| Task 19 | | [Java](https://git.io/JvF3p) |
+| Task 20 | | [Java](https://git.io/JvF3h) |
+| Task 21 | | [Java](https://git.io/JvF3h) |
+| Task 22 | | [Java](https://git.io/JvF3h) |
+| Task 23 | | [Java](https://git.io/JvF3h) |
+| Task 24 | | [Java](https://git.io/JvF3h) |
+| Task 25 | | [Java](https://git.io/JvF3h) |
+
 
 </td>
 <td>
@@ -59,7 +85,19 @@
 | Task 10 | | [Java](https://git.io/JvF3h) |
 | Task 11 | | [Java](https://git.io/JvF3h) |
 | Task 12 | | [Java](https://git.io/JvF3h) |
-| Task 12 | | [Java](https://git.io/JvF3h) |
+| Task 13 | | [Java](https://git.io/JvF39) |
+| Task 14 | | [Java](https://git.io/JvF39) |
+| Task 15 | | [Java](https://git.io/JvF37) |
+| Task 16 | | [Java](https://git.io/JvF35) |
+| Task 17 | | [Java](https://git.io/JvF3d) |
+| Task 18 | | [Java](https://git.io/JvF3b) |
+| Task 19 | | [Java](https://git.io/JvF3p) |
+| Task 20 | | [Java](https://git.io/JvF3h) |
+| Task 21 | | [Java](https://git.io/JvF3h) |
+| Task 22 | | [Java](https://git.io/JvF3h) |
+| Task 23 | | [Java](https://git.io/JvF3h) |
+| Task 24 | | [Java](https://git.io/JvF3h) |
+| Task 25 | | [Java](https://git.io/JvF3h) |
 
 </td>
 </tr> 

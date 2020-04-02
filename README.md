@@ -6,6 +6,7 @@
 <tr><th>Lab 01 </th><th>Lab 02</th><th>Lab 03</th></tr>
 <tr>
   <td>
+    
 | Task | Problem | Solution |
 | :---: |:---: | :---: |
 | Task 01 | | [Java]() |

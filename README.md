@@ -3,18 +3,16 @@
   <tr>
     <th>Questions: </th>
     <td><a href="https://git.io/JvFcF">01</a></td>
-<td><a href="https://git.io/JvFcA">02</a></td>
-<td><a href="https://git.io/JvFcx">03</a></td>
-<td><a href="https://git.io/JvFCf">04</a></td>
-<td><a href="https://git.io/JvFCJ">05</a></td>
-<td><a href="https://git.io/JvFCk">06</a></td>
-<td><a href="https://git.io/JvFCL">07</a></td>
-<td><a href="https://git.io/JvFCt">08</a></td>
-<td><a href="https://git.io/JvFCO">09</a></td
-  </tr>
+    <td><a href="https://git.io/JvFcA">02</a></td>
+    <td><a href="https://git.io/JvFcx">03</a></td>
+    <td><a href="https://git.io/JvFCf">04</a></td>
+    <td><a href="https://git.io/JvFCJ">05</a></td>
+    <td><a href="https://git.io/JvFCk">06</a></td>
+    <td><a href="https://git.io/JvFCL">07</a></td>
+    <td><a href="https://git.io/JvFCt">08</a></td>
+    <td><a href="https://git.io/JvFCO">09</a></td
+   </tr>
 </table>
-
-# CSE111-Lab
 
 <table>
 <tr><th>Lab 01 </th><th>Lab 02</th><th>Lab 03</th></tr>

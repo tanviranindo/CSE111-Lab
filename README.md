@@ -18,8 +18,18 @@
 | Task 12 | | [Java](https://git.io/JvF3h) |
 <!---| Day | []() | [Java]() |--->
 
-| Tables   |      Are      |  Cool |             | Tables   |      Are      |  Cool |
-|----------|:-------------:|------:|             |----------|:-------------:|------:|
-| col 1 is |  left-aligned | $1600 |             | col 1 is |  left-aligned | $1600 |
-| col 2 is |    centered   |   $12 |             | col 2 is |    centered   |   $12 |
-| col 3 is | right-aligned |    $1 |             
+<table>
+<tr><th>Table 1 Heading 1 </th><th>Table 1 Heading 2</th></tr>
+<tr><td>
+
+|Table 1| Middle | Table 2|
+|--|--|--|
+|a| not b|and c |
+
+</td><td>
+
+|b|1|2|3| 
+|--|--|--|--|
+|a|s|d|f|
+
+</td></tr> </table>

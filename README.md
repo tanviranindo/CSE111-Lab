@@ -7,7 +7,7 @@
 <tr>
   <td>
 | Task | Problem | Solution |
-| -- |-- | -- |
+| :---: |:---: | :---: |
 | Task 01 | | [Java]() |
 | Task 02 | | [Java](https://git.io/JvF39) |
 | Task 03 | | [Java](https://git.io/JvF37) |
@@ -25,6 +25,8 @@
 </td>
 <td>
 
+| Task | Problem | Solution |
+| :---: |:---: | :---: |
 | Task 01 | | [Java]() |
 | Task 02 | | [Java](https://git.io/JvF39) |
 | Task 03 | | [Java](https://git.io/JvF37) |
@@ -41,7 +43,9 @@
 
 </td>
 <td>
-  
+
+| Task | Problem | Solution |
+| :---: |:---: | :---: |
 | Task 01 | | [Java]() |
 | Task 02 | | [Java](https://git.io/JvF39) |
 | Task 03 | | [Java](https://git.io/JvF37) |

@@ -1,7 +1,5 @@
 # CSE111-Lab 
 <table>
-  <tbody>
-  <tr>
     <td>Questions: </td>
     <td><a href="https://git.io/JvFcF">01</a></td>
     <td><a href="https://git.io/JvFcA">02</a></td>
@@ -12,7 +10,7 @@
     <td><a href="https://git.io/JvFCL">07</a></td>
     <td><a href="https://git.io/JvFCt">08</a></td>
     <td><a href="https://git.io/JvFCO">09</a></td>
-   </tr>
+</table>
 <table style="text-align: center;">
   <th></th><th>Lab 01</th><th></th>
   <th></th><th>Lab 02</th><th></th>

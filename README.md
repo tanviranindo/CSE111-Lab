@@ -3,20 +3,13 @@
 <head >
     <meta charset="UTF-8">
     <title>Build a table</title>
-    
-</head>
-<body>
-<table>
-<!-- here goes our data! -->
-</table>
-</body>
-<script>
-  let lab = [
+    <script>
+let lab = [
   { task: "Monte Falco", name: 1658, solution: "Anindo".link("google.com")},
-  { task: "Monte Falterona", name: 1654, solution: "Parco Foreste Casentinesi" },
-  { task: "Poggio Scali", name: 1520, solution: "Parco Foreste Casentinesi" },
-  { task: "Pratomagno", name: 1592, solution: "Parco Foreste Casentinesi" },
-  { task: "Monte Amiata", name: 1738, solution: "Siena" }
+  { task: "Monte Falterona", name: 1654, solution: "Anindo".link("google.com")},
+  { task: "Poggio Scali", name: 1520, solution: "Anindo".link("google.com")},
+  { task: "Pratomagno", name: 1592, solution: "Anindo".link("google.com")},
+  { task: "Monte Amiata", name: 1738, solution: "Anindo".link("google.com")}
 ];
 
 function generateTableHead(table, data) {
@@ -46,4 +39,11 @@ let data = Object.keys(lab[0]);
 generateTableHead(table, data);
 generateTable(table, lab);
 </script>
+</head>
+<body>
+<table>
+<!-- here goes our data! -->
+</table>
+</body>
+
 </html>

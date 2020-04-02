@@ -38,7 +38,7 @@
 | Task 25 | | [Java](https://git.io/JvF3h) |
     
 </td>
-<td>
+<tr>
 
 </table>
 <!---| Day | []() | [Java]() |--->

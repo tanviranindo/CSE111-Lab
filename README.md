@@ -13,8 +13,6 @@
     <td><a href="https://git.io/JvFCt">08</a></td>
     <td><a href="https://git.io/JvFCO">09</a></td>
    </tr>
-  </tbody>
-</table>
 <table style="text-align: center;">
   <th></th><th>Lab 01</th><th></th>
   <th></th><th>Lab 02</th><th></th>

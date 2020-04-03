@@ -32,5 +32,3 @@
   </table>
 </div>
   
-</body>
-</html>

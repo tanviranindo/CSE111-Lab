@@ -17,7 +17,7 @@
 </table>
 <div>
     <table>
-        <tr><th>Lab 01</th></tr>
+        <th>Lab 01</th>
       <tr><th>Task</th><th>Problem</th><th>Solution</th></tr>
           <tr><td>Task 01</td><td>Number Line</td><td><a href="https://github.com/tanviranindo/CSE111-Lab/blob/master/LAB%20(1)/Task01.java">Java</a></td><tr>
           <tr><td>Task 02</td><td>Rectangle</td><td><a href="https://github.com/tanviranindo/CSE111-Lab/blob/master/LAB%20(1)/Task02.java">Java</a></td></tr>
@@ -25,7 +25,7 @@
 </div>
 <div>
     <table>
-        <tr><th>Lab 02</th></tr>
+        <th>Lab 02</th>
       <tr><th>Task</th><th>Problem</th><th>Solution</th></tr>
       <tr><td>Task 01</td><td>Reverse Number</td><td><a href="https://git.io/JvFcF">Java</a></td></tr>
       <tr><td>Task 02</td><td>Verify Each Entry</td><td><a href="https://git.io/JvFcF">Java</a></td></tr>

@@ -26,7 +26,7 @@
 <div>
     <table>
         <th>Lab 02</th>
-      <tr><th>Task</th><th>Problem</th><th>Solution</th></tr>
+      <tr><th>Tasks</th><th>Problem</th><th>Solution</th></tr>
       <tr><td>Task 01</td><td>Reverse Number</td><td><a href="https://git.io/JvFcF">Java</a></td></tr>
       <tr><td>Task 02</td><td>Verify Each Entry</td><td><a href="https://git.io/JvFcF">Java</a></td></tr>
   </table>

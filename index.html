@@ -1,56 +1,299 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>AAA</title>
-</head>
+<meta charset="UTF-8">
+<link rel="apple-touch-icon" type="image/png" href="https://static.codepen.io/assets/favicon/apple-touch-icon-5ae1a0698dcc2402e9712f7d01ed509a57814f994c660df9f7a952f3060705ee.png" />
+<meta name="apple-mobile-web-app-title" content="CodePen">
+<link rel="shortcut icon" type="image/x-icon" href="https://static.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico" />
+<link rel="mask-icon" type="" href="https://static.codepen.io/assets/favicon/logo-pin-8f3771b1072e3c38bd662872f6b673a722f4b3ca2421637d5596661b4e2132cc.svg" color="#111" />
+<title>CSE111 LAB</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 <style>
-  #contents {
-  width: 800px;
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial;
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #3b3b3b;
+  -webkit-font-smoothing: antialiased;
+  /* font-smoothing: antialiased; */
+  background: #2b2b2b;
+}
+@media screen and (max-width: 580px) {
+  body {
+    font-size: 13px;
+    line-height: 22px;
   }
-#contents table {
-  text-align: center;
-  width: 390px;
-  }
-#table_one {
-  float: left;
-  }
-  #table_two {
-    float: right;
-    }
-  </style>
-<body>
-# CSE111-Lab 
-<table>
-  <tbody>
-  <tr>
-    <td>Questions: </td>
-    <td><a href="https://git.io/JvFcF">01</a></td>
-    <td><a href="https://git.io/JvFcA">02</a></td>
-    <td><a href="https://git.io/JvFcx">03</a></td>
-    <td><a href="https://git.io/JvFCf">04</a></td>
-    <td><a href="https://git.io/JvFCJ">05</a></td>
-    <td><a href="https://git.io/JvFCk">06</a></td>
-    <td><a href="https://git.io/JvFCL">07</a></td>
-    <td><a href="https://git.io/JvFCt">08</a></td>
-    <td><a href="https://git.io/JvFCO">09</a></td>
-   </tr>
-  </tbody>
-</table>
+}
 
-<div id="contents">
+.wrapper {
+  margin: 0 auto;
+  padding: 40px;
+  max-width: 800px;
+}
 
-  <table cellspacing="0" cellpadding="0" id="table_one">
-      <tr><th>Task</th><th>Problem</th><th>Solution</th></tr>
-      <tr><td>Task 01</td><td>Number Line</td><td><a href="https://github.com/tanviranindo/CSE111-Lab/blob/master/LAB%20(1)/Task01.java">Java</a></td></tr>
-      <tr><td>Task 02</td><td>Rectangle</td><td><a href="https://github.com/tanviranindo/CSE111-Lab/blob/master/LAB%20(1)/Task02.java">Java</a></td></tr>
-  </table>
-  
-  <table cellspacing="0" cellpadding="0" id="table_two">
-    <tr><th>Task</th><th>Problem</th><th>Solution</th></tr>
-    <tr><td>Task 01</td><td>Reverse Number</td><td><a href="https://git.io/JvFcF">Java</a></td></tr>
-    <tr><td>Task 02</td><td>Verify Each Entry</td><td><a href="https://git.io/JvFcF">Java</a></td></tr>
-      </tr>
-  </table>
-  </div>
+.table {
+  margin: 0 0 40px 0;
+  width: 100%;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  display: table;
+}
+@media screen and (max-width: 580px) {
+  .table {
+    display: block;
+  }
+}
+
+.row {
+  display: table-row;
+  background: #f6f6f6;
+}
+.row:nth-of-type(odd) {
+  background: #e9e9e9;
+}
+.row.header {
+  font-weight: 900;
+  color: #ffffff;
+  background: #f02610;
+}
+.row.green {
+  background: #27ae60;
+}
+.row.blue {
+  background: #2980b9;
+}
+@media screen and (max-width: 580px) {
+  .row {
+    padding: 14px 0 7px;
+    display: block;
+  }
+  .row.header {
+    padding: 0;
+    height: 6px;
+  }
+  .row.header .cell {
+    display: none;
+  }
+  .row .cell {
+    margin-bottom: 10px;
+  }
+  .row .cell:before {
+    margin-bottom: 3px;
+    content: attr(data-title);
+    min-width: 98px;
+    font-size: 10px;
+    line-height: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #969696;
+    display: block;
+  }
+}
+
+.cell {
+  padding: 6px 12px;
+  display: table-cell;
+}
+@media screen and (max-width: 580px) {
+  .cell {
+    padding: 2px 16px;
+    display: block;
+  }
+}
+</style>
+<script>
+  window.console = window.console || function(t) {};
+</script>
+<script>
+  if (document.location.search.match(/type=embed/gi)) {
+    window.parent.postMessage("resize", "*");
+  }
+</script>
+</head>
+<body translate="no">
+<div class="wrapper">
+<div class="table">
+<div class="row header">
+<div class="cell">Task</div>
+<div class="cell">Problem</div>
+<div class="cell">Solution</div>
+<div class="cell">Task</div>
+<div class="cell">Problem</div>
+<div class="cell">Solution</div>
+</div>
+<div class="row">
+<div class="cell" data-title="Task">Task 01</div>
+<div class="cell" data-title="Problem">Number Line</div>
+<div class="cell" data-title="Solution"><a href="https://github.com/tanviranindo/CSE111-Lab/blob/master/LAB%20(1)/Task01.java">Java</a></div>
+<div class="cell" data-title="Task">Task 14</div>
+<div class="cell" data-title="Problem">Palindrome Triangle</div>
+<div class="cell" data-title="Solution"><a href="https://github.com/tanviranindo/CSE111-Lab/blob/master/LAB%20(1)/Task14.java">Java</a></div>
+</div>
+<div class="row">
+    <div class="cell" data-title="Task">Task 02</div>
+    <div class="cell" data-title="Problem">Rectangle</div>
+    <div class="cell" data-title="Solution"><a href="https://github.com/tanviranindo/CSE111-Lab/blob/master/LAB%20(1)/Task02.java">Java</a></div>
+    <div class="cell" data-title="Task">Task 15</div>
+    <div class="cell" data-title="Problem">Star Line</div>
+    <div class="cell" data-title="Solution"><a href="https://github.com/tanviranindo/CSE111-Lab/blob/master/LAB%20(1)/Task15.java">Java</a></div>
+</div>
+<div class="row">
+    <div class="cell" data-title="Task">Task 03</div>
+    <div class="cell" data-title="Problem">Triangle - Left Justified</div>
+    <div class="cell" data-title="Solution"><a href="https://github.com/tanviranindo/CSE111-Lab/blob/master/LAB%20(1)/Task03.java">Java</a></div>
+    <div class="cell" data-title="Task">Task 16</div>
+    <div class="cell" data-title="Problem">Rectangle Star Line</div>
+    <div class="cell" data-title="Solution"><a href="https://github.com/tanviranindo/CSE111-Lab/blob/master/LAB%20(1)/Task16.java">Java</a></div>
+</div>
+<div class="row">
+    <div class="cell" data-title="Task">Task 04</div>
+    <div class="cell" data-title="Problem">Triangle - Right Justified</div>
+    <div class="cell" data-title="Solution"><a href="https://github.com/tanviranindo/CSE111-Lab/blob/master/LAB%20(1)/Task04.java">Java</a></div>
+    <div class="cell" data-title="Task">Task 17</div>
+    <div class="cell" data-title="Problem">Triangle Left Justified Star Line</div>
+    <div class="cell" data-title="Solution"><a href="https://github.com/tanviranindo/CSE111-Lab/blob/master/LAB%20(1)/Task17.java">Java</a></div>
+</div>
+<div class="row">
+    <div class="cell" data-title="Task">Task 05</div>
+    <div class="cell" data-title="Problem">Triangle - Isosceles</div>
+    <div class="cell" data-title="Solution"><a href="https://github.com/tanviranindo/CSE111-Lab/blob/master/LAB%20(1)/Task05.java">Java</a></div>
+    <div class="cell" data-title="Task">Task 18</div>
+    <div class="cell" data-title="Problem">Triangle Right Justified Star Line</div>
+    <div class="cell" data-title="Solution"><a href="https://github.com/tanviranindo/CSE111-Lab/blob/master/LAB%20(1)/Task18.java">Java</a></div>
+</div>
+<div class="row">
+    <div class="cell" data-title="Task">Task 06</div>
+    <div class="cell" data-title="Problem">Rhombus</div>
+    <div class="cell" data-title="Solution"><a href="https://github.com/tanviranindo/CSE111-Lab/blob/master/LAB%20(1)/Task06.java">Java</a></div>
+    <div class="cell" data-title="Task">Task 19</div>
+    <div class="cell" data-title="Problem">Triangle - Isosceles Star Line</div>
+    <div class="cell" data-title="Solution"><a href="https://github.com/tanviranindo/CSE111-Lab/blob/master/LAB%20(1)/Task19.java">Java</a></div>
+</div>
+<div class="row">
+    <div class="cell" data-title="Task">Task 07</div>
+    <div class="cell" data-title="Problem">Hollow Rectangle</div>
+    <div class="cell" data-title="Solution"><a href="https://github.com/tanviranindo/CSE111-Lab/blob/master/LAB%20(1)/Task07.java">Java</a></div>
+    <div class="cell" data-title="Task">Task 20</div>
+    <div class="cell" data-title="Problem">Rhombus Star Line</div>
+    <div class="cell" data-title="Solution"><a href="https://github.com/tanviranindo/CSE111-Lab/blob/master/LAB%20(1)/Task20.java">Java</a></div>
+</div>
+<div class="row">
+    <div class="cell" data-title="Task">Task 08</div>
+    <div class="cell" data-title="Problem">Hollow Triangle - Left Justified</div>
+    <div class="cell" data-title="Solution"><a href="https://github.com/tanviranindo/CSE111-Lab/blob/master/LAB%20(1)/Task08.java">Java</a></div>
+    <div class="cell" data-title="Task">Task 21</div>
+    <div class="cell" data-title="Problem">Hollow Rectangle Star Line</div>
+    <div class="cell" data-title="Solution"><a href="https://github.com/tanviranindo/CSE111-Lab/blob/master/LAB%20(1)/Task21.java">Java</a></div>
+</div>
+<div class="row">
+    <div class="cell" data-title="Task">Task 09</div>
+    <div class="cell" data-title="Problem">Hollow Triangle - Right Justified</div>
+    <div class="cell" data-title="Solution"><a href="https://github.com/tanviranindo/CSE111-Lab/blob/master/LAB%20(1)/Task09.java">Java</a></div>
+    <div class="cell" data-title="Task">Task 22</div>
+    <div class="cell" data-title="Problem">Hollow Triangle - Left Justified Star</div>
+    <div class="cell" data-title="Solution"><a href="https://github.com/tanviranindo/CSE111-Lab/blob/master/LAB%20(1)/Task22.java">Java</a></div>
+</div>
+<div class="row">
+    <div class="cell" data-title="Task">Task 10</div>
+    <div class="cell" data-title="Problem">Hollow Triangle - Isosceles</div>
+    <div class="cell" data-title="Solution"><a href="https://github.com/tanviranindo/CSE111-Lab/blob/master/LAB%20(1)/Task10.java">Java</a></div>
+    <div class="cell" data-title="Task">Task 23</div>
+    <div class="cell" data-title="Problem">Hollow Triangle - Right Justified Star</div>
+    <div class="cell" data-title="Solution"><a href="https://github.com/tanviranindo/CSE111-Lab/blob/master/LAB%20(1)/Task23.java">Java</a></div>
+</div>
+<div class="row">
+    <div class="cell" data-title="Task">Task 11</div>
+    <div class="cell" data-title="Problem">Hollow Rhombus</div>
+    <div class="cell" data-title="Solution"><a href="https://github.com/tanviranindo/CSE111-Lab/blob/master/LAB%20(1)/Task11.java">Java</a></div>
+    <div class="cell" data-title="Task">Task 24</div>
+    <div class="cell" data-title="Problem">Hollow Triange - Isosceles Star Line</div>
+    <div class="cell" data-title="Solution"><a href="https://github.com/tanviranindo/CSE111-Lab/blob/master/LAB%20(1)/Task24.java">Java</a></div>
+</div>
+<div class="row">
+    <div class="cell" data-title="Task">Task 12</div>
+    <div class="cell" data-title="Problem">Triangle - Right Justified</div>
+    <div class="cell" data-title="Solution"><a href="https://github.com/tanviranindo/CSE111-Lab/blob/master/LAB%20(1)/Task12.java">Java</a></div>
+    <div class="cell" data-title="Task">Task 25</div>
+    <div class="cell" data-title="Problem">Hollow Rhombus Star Line</div>
+    <div class="cell" data-title="Solution"><a href="https://github.com/tanviranindo/CSE111-Lab/blob/master/LAB%20(1)/Task25.java">Java</a></div>
+</div>
+<div class="row">
+    <div class="cell" data-title="Task">Task 13</div>
+    <div class="cell" data-title="Problem">Palindrome</div>
+    <div class="cell" data-title="Solution"><a href="https://github.com/tanviranindo/CSE111-Lab/blob/master/LAB%20(1)/Task13.java">Java</a></div>
+</div>
+</div>
+<div class="table">
+<div class="row header green">
+<div class="cell">Product</div>
+<div class="cell">Unit Price</div>
+<div class="cell">Quantity</div>
+<div class="cell">Date Sold</div>
+<div class="cell">Status</div>
+</div>
+<div class="row">
+<div class="cell" data-title="Product">Solid oak work table</div>
+<div class="cell" data-title="Unit Price">$800</div>
+<div class="cell" data-title="Quantity">10</div>
+<div class="cell" data-title="Date Sold">03/15/2014</div>
+<div class="cell" data-title="Status">Waiting for Pickup</div>
+</div>
+<div class="row">
+<div class="cell" data-title="Product">Leather iPhone wallet</div>
+<div class="cell" data-title="Unit Price">$45</div>
+<div class="cell" data-title="Quantity">120</div>
+<div class="cell" data-title="Date Sold">02/28/2014</div>
+<div class="cell" data-title="Status">In Transit</div>
+</div>
+<div class="row">
+<div class="cell" data-title="Product">27" Apple Thunderbolt displays</div>
+<div class="cell" data-title="Unit Price">$1000</div>
+<div class="cell" data-title="Quantity">25</div>
+<div class="cell" data-title="Date Sold">02/10/2014</div>
+<div class="cell" data-title="Status">Delivered</div>
+</div>
+<div class="row">
+<div class="cell" data-title="Product">Bose studio headphones</div>
+<div class="cell" data-title="Unit Price">$60</div>
+<div class="cell" data-title="Quantity">90</div>
+<div class="cell" data-title="Date Sold">01/14/2014</div>
+<div class="cell" data-title="Status">Delivered</div>
+</div>
+</div>
+<div class="table">
+<div class="row header blue">
+<div class="cell">Username</div>
+<div class="cell">Email</div>
+<div class="cell">Password</div>
+<div class="cell">Active</div>
+</div>
+<div class="row">
+<div class="cell" data-title="Username">ninjalug</div>
+<div class="cell" data-title="Email"><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="84e9edf7f0e1f6eaedeaeee5c4ecebf0e9e5ede8aae7ebe9">[email&#160;protected]</a></div>
+<div class="cell" data-title="Password">************</div>
+<div class="cell" data-title="Active">Yes</div>
+</div>
+<div class="row">
+<div class="cell" data-title="Username">jsmith41</div>
+<div class="cell" data-title="Email"><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="bbd1d4c8decbd395c8d6d2cfd3fbdcd6dad2d795d8d4d6">[email&#160;protected]</a></div>
+<div class="cell" data-title="Password">************</div>
+<div class="cell" data-title="Active">No</div>
+</div>
+<div class="row">
+<div class="cell" data-title="Username">1337hax0r15
+</div>
+<div class="cell" data-title="Email"><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="264e47454d435442534243171616166647494a0845494b">[email&#160;protected]</a></div>
+<div class="cell" data-title="Password">************</div>
+<div class="cell" data-title="Active">Yes</div>
+</div>
+<div class="row">
+<div class="cell" data-title="Username">hairyharry19</div>
+<div class="cell" data-title="Email"><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="dcb4bdaeaea5b4bdaeaea59cbbb1bdb5b0f2bfb3b1">[email&#160;protected]</a></div>
+<div class="cell" data-title="Password">************</div>
+<div class="cell" data-title="Active">Yes</div>
+</div>
+</div>
+</div>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 </body>
 </html>

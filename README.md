@@ -1,49 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
-<head >
-    <meta charset="UTF-8">
-    <title>Build a table</title>
-    <script>
-let lab = [
-  { task: "Monte Falco", name: 1658, solution: "Anindo".link("google.com")},
-  { task: "Monte Falterona", name: 1654, solution: "Anindo".link("google.com")},
-  { task: "Poggio Scali", name: 1520, solution: "Anindo".link("google.com")},
-  { task: "Pratomagno", name: 1592, solution: "Anindo".link("google.com")},
-  { task: "Monte Amiata", name: 1738, solution: "Anindo".link("google.com")}
-];
-
-function generateTableHead(table, data) {
-  let thead = table.createTHead();
-  let row = thead.insertRow();
-  for (let key of data) {
-    let th = document.createElement("th");
-    let text = document.createTextNode(key);
-    th.appendChild(text);
-    row.appendChild(th);
-  }
-}
-
-function generateTable(table, data) {
-  for (let element of data) {
-    let row = table.insertRow();
-    for (key in element) {
-      let cell = row.insertCell();
-      let text = document.createTextNode(element[key]);
-      cell.appendChild(text);
-    }
-  }
-}
-
-let table = document.querySelector("table");
-let data = Object.keys(lab[0]);
-generateTableHead(table, data);
-generateTable(table, lab);
-</script>
+<html>
+<head>
+  <title>AAA</title>
 </head>
 <body>
+# CSE111-Lab 
 <table>
-<!-- here goes our data! -->
+  <tbody>
+  <tr>
+    <td>Questions: </td>
+    <td><a href="https://git.io/JvFcF">01</a></td>
+    <td><a href="https://git.io/JvFcA">02</a></td>
+    <td><a href="https://git.io/JvFcx">03</a></td>
+    <td><a href="https://git.io/JvFCf">04</a></td>
+    <td><a href="https://git.io/JvFCJ">05</a></td>
+    <td><a href="https://git.io/JvFCk">06</a></td>
+    <td><a href="https://git.io/JvFCL">07</a></td>
+    <td><a href="https://git.io/JvFCt">08</a></td>
+    <td><a href="https://git.io/JvFCO">09</a></td>
+   </tr>
+  </tbody>
 </table>
+<div>
+    <table style="float: left">
+        <tr><th>Lab 01</th></tr>
+      <tr><th>Task</th><th>Problem</th><th>Solution</th></tr>
+          <tr><td>Task 01</td><td>Number Line</td><td><a href="https://github.com/tanviranindo/CSE111-Lab/blob/master/LAB%20(1)/Task01.java">Java</a></td><tr>
+          <tr><td>Task 02</td><td>Rectangle</td><td><a href="https://github.com/tanviranindo/CSE111-Lab/blob/master/LAB%20(1)/Task02.java">Java</a></td></tr>
+    </table>
+</div>
+<div>
+    <table style="float: left">
+        <tr><th>Lab 02</th></tr>
+      <tr><th>Task</th><th>Problem</th><th>Solution</th></tr>
+      <tr><td>Task 01</td><td>Reverse Number</td><td><a href="https://git.io/JvFcF">Java</a></td></tr>
+      <tr><td>Task 02</td><td>Verify Each Entry</td><td><a href="https://git.io/JvFcF">Java</a></td></tr>
+  </table>
+</div>
+  
 </body>
-
 </html>

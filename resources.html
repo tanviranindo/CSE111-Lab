@@ -1,502 +1,72 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>CGPA Calculator</title>
-        <meta charset="UTF-8">
-        <meta name="author" content="Tanvir Rahman">      
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      </head>
-  <body>
-      <div class="resources_section" id="resource_section_lecture_notes">
-       <div id="title_wrapper" class="title_wrapper">
-    <h2>Lecture Notes</h2>
-    <!-- <div class="number_of_resources_wrapper">
-      ( <span id="number_of_resources_shown"></span> out of <span id="number_of_total_resources"></span> resources displayed ) 
-    </div> -->
-    
-    <!-- PAGINATION AT THE TOP OF THE LIST -->
-    <!-- only show these toggles when more than 10 resources -->
-    <div class="resource_pagination clearfix" style="display: none;">
-      <span class="resource_pagination_numbers pull-left">
-        <span class="page_boundary starting"></span> - <span class="page_boundary ending"></span> of <span class="page_boundary total"></span>
-      </span>
-      <div class="resource_pagination_toggles pull-left clearfix">
-        <button class="resource_pagination_toggle pull-left previous_page">
-          &lt;
-        </button>
-        <button class="resource_pagination_toggle pull-left next_page">
-          &gt;
-        </button>
-      </div>
-    </div>
-    
-  </div>
-  <table class="table table-striped tablesorter table-bordered
-     no_reorder">
-    <thead>
-    <tr>
-            <th class="title">
-        Lecture Notes
-      </th>
-            <th class="date">
-        Lecture Date
-      </th>
-      </tr>
-    </thead>
-    <tbody id="resource_table_body">
-    <tr class="resource resource_row ui-state-default" data-pats="resources_item" data-cid="k8cg4e3vk5pes">
-  <td id="k8cg4e3vk5pes">
-    <i class="ajax_loader"></i>
-    <div class="view title"><a href="https://drive.google.com/file/d/1hAr1kCHkoGziZd5pIWOwb2S9-R1ZBDlK/view?usp=sharing" class="resource_title" data-pats="resources_item_link" target="_blank" onmousedown="dataLayer.push({'event': 'eventTracker', 'eventCat': 'Outbound Links', 'eventAct': 'Click', 'eventLbl': 'drive.google.com/file/d/1hAr1kCHkoGziZd5pIWOwb2S9-R1ZBDlK/view?usp=sharing', 'eventVal': 0});">Class Record [Class 1 - 3/27/2020]</a></div>
-    <div class="announce_message req_inst">Click "Post a note" anytime to create a note related to this resource. (you can review its content before posting)</div>
-    <div class="edit" style="float: left;"><input class="title" type="text"></div>
-    <div class="req_inst reorder_resource hide" id="resource_drag_field_k8cg4e3vk5pes"></div>
-    <div class="req_inst reorder_resource_disabled hide"></div>
-  </td>
-  <td class="resource_date_col hide_on_drag ">
-    <div class="view" style="text-align: center; line-height: 2">Mar 27, 2020</div>
-    <div class="edit"><input class="date hasDatepicker" type="text" id="dp1592366163408"></div>
-  </td>
-  
-  <td class="req_inst resource_action_col hide_on_drag">
-    <div class="view btn-group">
-      <button class="btn_edit btn btn-small" data-original-title="Edit" rel="tooltip">
-        <i class="icon-pencil"></i>&nbsp;&nbsp;Edit
-      </button>
-      <button class="btn_announce btn btn-small" data-original-title="Post a note" rel="tooltip">
-        <i class="icon-list-alt"></i>&nbsp;&nbsp;Post a note
-      </button>
-      <button class="btn_delete btn btn-small" data-pats="resources_item_delete_button" data-original-title="Are you sure?" data-content="
-                <button class='yes btn btn-primary' data-pats='resources_item_yes_button'>Yes</button>
-                <button class='no btn'>No</button>">
-        <i class="icon-trash"></i>&nbsp;&nbsp;Delete
-      </button>
-    </div>
-    <button class="edit btn_save btn btn-small">
-      <i class="icon-ok-circle"></i> Done
-    </button>
-  </td>
-</tr><tr class="resource resource_row ui-state-default" data-pats="resources_item" data-cid="k8d2d54t2a15eu">
-  <td id="k8d2d54t2a15eu">
-    <i class="ajax_loader"></i>
-    <div class="view title"><a href="https://drive.google.com/file/d/1MwEXhKDMfxZ2yiOZQ8_Y-kb1bwbFjCPt/view?usp=sharing" class="resource_title" data-pats="resources_item_link" target="_blank" onmousedown="dataLayer.push({'event': 'eventTracker', 'eventCat': 'Outbound Links', 'eventAct': 'Click', 'eventLbl': 'drive.google.com/file/d/1MwEXhKDMfxZ2yiOZQ8_Y-kb1bwbFjCPt/view?usp=sharing', 'eventVal': 0});">Class Record [Class 2 - 3/29/2020]</a></div>
-    <div class="announce_message req_inst">Click "Post a note" anytime to create a note related to this resource. (you can review its content before posting)</div>
-    <div class="edit" style="float: left;"><input class="title" type="text"></div>
-    <div class="req_inst reorder_resource hide" id="resource_drag_field_k8d2d54t2a15eu"></div>
-    <div class="req_inst reorder_resource_disabled hide"></div>
-  </td>
-  <td class="resource_date_col hide_on_drag ">
-    <div class="view" style="text-align: center; line-height: 2">Mar 29, 2020</div>
-    <div class="edit"><input class="date hasDatepicker" type="text" id="dp1592366163409"></div>
-  </td>
-  
-  <td class="req_inst resource_action_col hide_on_drag">
-    <div class="view btn-group">
-      <button class="btn_edit btn btn-small" data-original-title="Edit" rel="tooltip">
-        <i class="icon-pencil"></i>&nbsp;&nbsp;Edit
-      </button>
-      <button class="btn_announce btn btn-small" data-original-title="Post a note" rel="tooltip">
-        <i class="icon-list-alt"></i>&nbsp;&nbsp;Post a note
-      </button>
-      <button class="btn_delete btn btn-small" data-pats="resources_item_delete_button" data-original-title="Are you sure?" data-content="
-                <button class='yes btn btn-primary' data-pats='resources_item_yes_button'>Yes</button>
-                <button class='no btn'>No</button>">
-        <i class="icon-trash"></i>&nbsp;&nbsp;Delete
-      </button>
-    </div>
-    <button class="edit btn_save btn btn-small">
-      <i class="icon-ok-circle"></i> Done
-    </button>
-  </td>
-</tr><tr class="resource resource_row ui-state-default" data-pats="resources_item" data-cid="k8mzcyvy8121ye">
-  <td id="k8mzcyvy8121ye">
-    <i class="ajax_loader"></i>
-    <div class="view title"><a href="https://drive.google.com/file/d/1j2D_V9cLXBdGVRy8aVyEtyp1Fpb0ZmF1/view?usp=sharing" class="resource_title" data-pats="resources_item_link" target="_blank" onmousedown="dataLayer.push({'event': 'eventTracker', 'eventCat': 'Outbound Links', 'eventAct': 'Click', 'eventLbl': 'drive.google.com/file/d/1j2D_V9cLXBdGVRy8aVyEtyp1Fpb0ZmF1/view?usp=sharing', 'eventVal': 0});">Class Record [Class 3 - 4/3/2020]</a></div>
-    <div class="announce_message req_inst">Click "Post a note" anytime to create a note related to this resource. (you can review its content before posting)</div>
-    <div class="edit" style="float: left;"><input class="title" type="text"></div>
-    <div class="req_inst reorder_resource hide" id="resource_drag_field_k8mzcyvy8121ye"></div>
-    <div class="req_inst reorder_resource_disabled hide"></div>
-  </td>
-  <td class="resource_date_col hide_on_drag ">
-    <div class="view" style="text-align: center; line-height: 2">Apr 3, 2020</div>
-    <div class="edit"><input class="date hasDatepicker" type="text" id="dp1592366163410"></div>
-  </td>
-  
-  <td class="req_inst resource_action_col hide_on_drag">
-    <div class="view btn-group">
-      <button class="btn_edit btn btn-small" data-original-title="Edit" rel="tooltip">
-        <i class="icon-pencil"></i>&nbsp;&nbsp;Edit
-      </button>
-      <button class="btn_announce btn btn-small" data-original-title="Post a note" rel="tooltip">
-        <i class="icon-list-alt"></i>&nbsp;&nbsp;Post a note
-      </button>
-      <button class="btn_delete btn btn-small" data-pats="resources_item_delete_button" data-original-title="Are you sure?" data-content="
-                <button class='yes btn btn-primary' data-pats='resources_item_yes_button'>Yes</button>
-                <button class='no btn'>No</button>">
-        <i class="icon-trash"></i>&nbsp;&nbsp;Delete
-      </button>
-    </div>
-    <button class="edit btn_save btn btn-small">
-      <i class="icon-ok-circle"></i> Done
-    </button>
-  </td>
-</tr><tr class="resource resource_row ui-state-default" data-pats="resources_item" data-cid="k8mzdzudxww2i2">
-  <td id="k8mzdzudxww2i2">
-    <i class="ajax_loader"></i>
-    <div class="view title"><a href="https://drive.google.com/file/d/1bciPagoQR8rF0KeiZFxbZJ32-k1RYKjz/view?usp=sharing" class="resource_title" data-pats="resources_item_link" target="_blank" onmousedown="dataLayer.push({'event': 'eventTracker', 'eventCat': 'Outbound Links', 'eventAct': 'Click', 'eventLbl': 'drive.google.com/file/d/1bciPagoQR8rF0KeiZFxbZJ32-k1RYKjz/view?usp=sharing', 'eventVal': 0});">Class Record [Class 4 - 4/5/2020]</a></div>
-    <div class="announce_message req_inst">Click "Post a note" anytime to create a note related to this resource. (you can review its content before posting)</div>
-    <div class="edit" style="float: left;"><input class="title" type="text"></div>
-    <div class="req_inst reorder_resource hide" id="resource_drag_field_k8mzdzudxww2i2"></div>
-    <div class="req_inst reorder_resource_disabled hide"></div>
-  </td>
-  <td class="resource_date_col hide_on_drag ">
-    <div class="view" style="text-align: center; line-height: 2">Apr 5, 2020</div>
-    <div class="edit"><input class="date hasDatepicker" type="text" id="dp1592366163411"></div>
-  </td>
-  
-  <td class="req_inst resource_action_col hide_on_drag">
-    <div class="view btn-group">
-      <button class="btn_edit btn btn-small" data-original-title="Edit" rel="tooltip">
-        <i class="icon-pencil"></i>&nbsp;&nbsp;Edit
-      </button>
-      <button class="btn_announce btn btn-small" data-original-title="Post a note" rel="tooltip">
-        <i class="icon-list-alt"></i>&nbsp;&nbsp;Post a note
-      </button>
-      <button class="btn_delete btn btn-small" data-pats="resources_item_delete_button" data-original-title="Are you sure?" data-content="
-                <button class='yes btn btn-primary' data-pats='resources_item_yes_button'>Yes</button>
-                <button class='no btn'>No</button>">
-        <i class="icon-trash"></i>&nbsp;&nbsp;Delete
-      </button>
-    </div>
-    <button class="edit btn_save btn btn-small">
-      <i class="icon-ok-circle"></i> Done
-    </button>
-  </td>
-</tr><tr class="resource resource_row ui-state-default" data-pats="resources_item" data-cid="k8u4pakw95c513">
-  <td id="k8u4pakw95c513">
-    <i class="ajax_loader"></i>
-    <div class="view title"><a href="https://drive.google.com/file/d/1bMfdAAm_iqAn43PZktsMbuk22N94C1gg/view?usp=sharing" class="resource_title" data-pats="resources_item_link" target="_blank" onmousedown="dataLayer.push({'event': 'eventTracker', 'eventCat': 'Outbound Links', 'eventAct': 'Click', 'eventLbl': 'drive.google.com/file/d/1bMfdAAm_iqAn43PZktsMbuk22N94C1gg/view?usp=sharing', 'eventVal': 0});">Class Record [Class 5 - 4/10/2020]</a></div>
-    <div class="announce_message req_inst">Click "Post a note" anytime to create a note related to this resource. (you can review its content before posting)</div>
-    <div class="edit" style="float: left;"><input class="title" type="text"></div>
-    <div class="req_inst reorder_resource hide" id="resource_drag_field_k8u4pakw95c513"></div>
-    <div class="req_inst reorder_resource_disabled hide"></div>
-  </td>
-  <td class="resource_date_col hide_on_drag ">
-    <div class="view" style="text-align: center; line-height: 2">Apr 10, 2020</div>
-    <div class="edit"><input class="date hasDatepicker" type="text" id="dp1592366163412"></div>
-  </td>
-  
-  <td class="req_inst resource_action_col hide_on_drag">
-    <div class="view btn-group">
-      <button class="btn_edit btn btn-small" data-original-title="Edit" rel="tooltip">
-        <i class="icon-pencil"></i>&nbsp;&nbsp;Edit
-      </button>
-      <button class="btn_announce btn btn-small" data-original-title="Post a note" rel="tooltip">
-        <i class="icon-list-alt"></i>&nbsp;&nbsp;Post a note
-      </button>
-      <button class="btn_delete btn btn-small" data-pats="resources_item_delete_button" data-original-title="Are you sure?" data-content="
-                <button class='yes btn btn-primary' data-pats='resources_item_yes_button'>Yes</button>
-                <button class='no btn'>No</button>">
-        <i class="icon-trash"></i>&nbsp;&nbsp;Delete
-      </button>
-    </div>
-    <button class="edit btn_save btn btn-small">
-      <i class="icon-ok-circle"></i> Done
-    </button>
-  </td>
-</tr><tr class="resource resource_row ui-state-default" data-pats="resources_item" data-cid="k9611hjdwa61pv">
-  <td id="k9611hjdwa61pv">
-    <i class="ajax_loader"></i>
-    <div class="view title"><a href="https://drive.google.com/file/d/1wjOIoWraxt2RdSIu_o-kODprpci7jPmg/view?usp=sharing" class="resource_title" data-pats="resources_item_link" target="_blank" onmousedown="dataLayer.push({'event': 'eventTracker', 'eventCat': 'Outbound Links', 'eventAct': 'Click', 'eventLbl': 'drive.google.com/file/d/1wjOIoWraxt2RdSIu_o-kODprpci7jPmg/view?usp=sharing', 'eventVal': 0});">Class Record [Class 6 - 4/17/2020]</a></div>
-    <div class="announce_message req_inst">Click "Post a note" anytime to create a note related to this resource. (you can review its content before posting)</div>
-    <div class="edit" style="float: left;"><input class="title" type="text"></div>
-    <div class="req_inst reorder_resource hide" id="resource_drag_field_k9611hjdwa61pv"></div>
-    <div class="req_inst reorder_resource_disabled hide"></div>
-  </td>
-  <td class="resource_date_col hide_on_drag ">
-    <div class="view" style="text-align: center; line-height: 2">Apr 17, 2020</div>
-    <div class="edit"><input class="date hasDatepicker" type="text" id="dp1592366163413"></div>
-  </td>
-  
-  <td class="req_inst resource_action_col hide_on_drag">
-    <div class="view btn-group">
-      <button class="btn_edit btn btn-small" data-original-title="Edit" rel="tooltip">
-        <i class="icon-pencil"></i>&nbsp;&nbsp;Edit
-      </button>
-      <button class="btn_announce btn btn-small" data-original-title="Post a note" rel="tooltip">
-        <i class="icon-list-alt"></i>&nbsp;&nbsp;Post a note
-      </button>
-      <button class="btn_delete btn btn-small" data-pats="resources_item_delete_button" data-original-title="Are you sure?" data-content="
-                <button class='yes btn btn-primary' data-pats='resources_item_yes_button'>Yes</button>
-                <button class='no btn'>No</button>">
-        <i class="icon-trash"></i>&nbsp;&nbsp;Delete
-      </button>
-    </div>
-    <button class="edit btn_save btn btn-small">
-      <i class="icon-ok-circle"></i> Done
-    </button>
-  </td>
-</tr><tr class="resource resource_row ui-state-default" data-pats="resources_item" data-cid="k97437rzen365y">
-  <td id="k97437rzen365y">
-    <i class="ajax_loader"></i>
-    <div class="view title"><a href="https://drive.google.com/file/d/1HT5gIWD2vFGykA4ZvMH1m3BBG5N4ypGM/view?usp=sharing" class="resource_title" data-pats="resources_item_link" target="_blank" onmousedown="dataLayer.push({'event': 'eventTracker', 'eventCat': 'Outbound Links', 'eventAct': 'Click', 'eventLbl': 'drive.google.com/file/d/1HT5gIWD2vFGykA4ZvMH1m3BBG5N4ypGM/view?usp=sharing', 'eventVal': 0});">Class Record [Class 7 - 4/19/2020]</a></div>
-    <div class="announce_message req_inst">Click "Post a note" anytime to create a note related to this resource. (you can review its content before posting)</div>
-    <div class="edit" style="float: left;"><input class="title" type="text"></div>
-    <div class="req_inst reorder_resource hide" id="resource_drag_field_k97437rzen365y"></div>
-    <div class="req_inst reorder_resource_disabled hide"></div>
-  </td>
-  <td class="resource_date_col hide_on_drag ">
-    <div class="view" style="text-align: center; line-height: 2">Apr 19, 2020</div>
-    <div class="edit"><input class="date hasDatepicker" type="text" id="dp1592366163414"></div>
-  </td>
-  
-  <td class="req_inst resource_action_col hide_on_drag">
-    <div class="view btn-group">
-      <button class="btn_edit btn btn-small" data-original-title="Edit" rel="tooltip">
-        <i class="icon-pencil"></i>&nbsp;&nbsp;Edit
-      </button>
-      <button class="btn_announce btn btn-small" data-original-title="Post a note" rel="tooltip">
-        <i class="icon-list-alt"></i>&nbsp;&nbsp;Post a note
-      </button>
-      <button class="btn_delete btn btn-small" data-pats="resources_item_delete_button" data-original-title="Are you sure?" data-content="
-                <button class='yes btn btn-primary' data-pats='resources_item_yes_button'>Yes</button>
-                <button class='no btn'>No</button>">
-        <i class="icon-trash"></i>&nbsp;&nbsp;Delete
-      </button>
-    </div>
-    <button class="edit btn_save btn btn-small">
-      <i class="icon-ok-circle"></i> Done
-    </button>
-  </td>
-</tr><tr class="resource resource_row ui-state-default" data-pats="resources_item" data-cid="k9hbrcpjk6n5ap">
-  <td id="k9hbrcpjk6n5ap">
-    <i class="ajax_loader"></i>
-    <div class="view title"><a href="https://drive.google.com/file/d/1mnMUiO_97hUxDI5t7Ariz5RmjF48zUM6/view?usp=sharing" class="resource_title" data-pats="resources_item_link" target="_blank" onmousedown="dataLayer.push({'event': 'eventTracker', 'eventCat': 'Outbound Links', 'eventAct': 'Click', 'eventLbl': 'drive.google.com/file/d/1mnMUiO_97hUxDI5t7Ariz5RmjF48zUM6/view?usp=sharing', 'eventVal': 0});">Class Record [Class 8 - 4/24/2020]</a></div>
-    <div class="announce_message req_inst">Click "Post a note" anytime to create a note related to this resource. (you can review its content before posting)</div>
-    <div class="edit" style="float: left;"><input class="title" type="text"></div>
-    <div class="req_inst reorder_resource hide" id="resource_drag_field_k9hbrcpjk6n5ap"></div>
-    <div class="req_inst reorder_resource_disabled hide"></div>
-  </td>
-  <td class="resource_date_col hide_on_drag ">
-    <div class="view" style="text-align: center; line-height: 2">Apr 24, 2020</div>
-    <div class="edit"><input class="date hasDatepicker" type="text" id="dp1592366163415"></div>
-  </td>
-  
-  <td class="req_inst resource_action_col hide_on_drag">
-    <div class="view btn-group">
-      <button class="btn_edit btn btn-small" data-original-title="Edit" rel="tooltip">
-        <i class="icon-pencil"></i>&nbsp;&nbsp;Edit
-      </button>
-      <button class="btn_announce btn btn-small" data-original-title="Post a note" rel="tooltip">
-        <i class="icon-list-alt"></i>&nbsp;&nbsp;Post a note
-      </button>
-      <button class="btn_delete btn btn-small" data-pats="resources_item_delete_button" data-original-title="Are you sure?" data-content="
-                <button class='yes btn btn-primary' data-pats='resources_item_yes_button'>Yes</button>
-                <button class='no btn'>No</button>">
-        <i class="icon-trash"></i>&nbsp;&nbsp;Delete
-      </button>
-    </div>
-    <button class="edit btn_save btn btn-small">
-      <i class="icon-ok-circle"></i> Done
-    </button>
-  </td>
-</tr><tr class="resource resource_row ui-state-default" data-pats="resources_item" data-cid="k9twhkvo5ki482">
-  <td id="k9twhkvo5ki482">
-    <i class="ajax_loader"></i>
-    <div class="view title"><a href="https://drive.google.com/file/d/1g6nzrXjfaGEuPLnAJOaEgGoIBNEHW42U/view" class="resource_title" data-pats="resources_item_link" target="_blank" onmousedown="dataLayer.push({'event': 'eventTracker', 'eventCat': 'Outbound Links', 'eventAct': 'Click', 'eventLbl': 'drive.google.com/file/d/1g6nzrXjfaGEuPLnAJOaEgGoIBNEHW42U/view', 'eventVal': 0});">Class Record [Class 9 - 4/27/2020]</a></div>
-    <div class="announce_message req_inst">Click "Post a note" anytime to create a note related to this resource. (you can review its content before posting)</div>
-    <div class="edit" style="float: left;"><input class="title" type="text"></div>
-    <div class="req_inst reorder_resource hide" id="resource_drag_field_k9twhkvo5ki482"></div>
-    <div class="req_inst reorder_resource_disabled hide"></div>
-  </td>
-  <td class="resource_date_col hide_on_drag ">
-    <div class="view" style="text-align: center; line-height: 2">Apr 27, 2020</div>
-    <div class="edit"><input class="date hasDatepicker" type="text" id="dp1592366163416"></div>
-  </td>
-  
-  <td class="req_inst resource_action_col hide_on_drag">
-    <div class="view btn-group">
-      <button class="btn_edit btn btn-small" data-original-title="Edit" rel="tooltip">
-        <i class="icon-pencil"></i>&nbsp;&nbsp;Edit
-      </button>
-      <button class="btn_announce btn btn-small" data-original-title="Post a note" rel="tooltip">
-        <i class="icon-list-alt"></i>&nbsp;&nbsp;Post a note
-      </button>
-      <button class="btn_delete btn btn-small" data-pats="resources_item_delete_button" data-original-title="Are you sure?" data-content="
-                <button class='yes btn btn-primary' data-pats='resources_item_yes_button'>Yes</button>
-                <button class='no btn'>No</button>">
-        <i class="icon-trash"></i>&nbsp;&nbsp;Delete
-      </button>
-    </div>
-    <button class="edit btn_save btn btn-small">
-      <i class="icon-ok-circle"></i> Done
-    </button>
-  </td>
-</tr><tr class="resource resource_row ui-state-default" data-pats="resources_item" data-cid="k9twiqve55u57z">
-  <td id="k9twiqve55u57z">
-    <i class="ajax_loader"></i>
-    <div class="view title"><a href="https://drive.google.com/file/d/1gR4wRwSnS7UgFS6DeO4pVmq-rDlSyZ3t/view" class="resource_title" data-pats="resources_item_link" target="_blank" onmousedown="dataLayer.push({'event': 'eventTracker', 'eventCat': 'Outbound Links', 'eventAct': 'Click', 'eventLbl': 'drive.google.com/file/d/1gR4wRwSnS7UgFS6DeO4pVmq-rDlSyZ3t/view', 'eventVal': 0});">Class Record [Class 10 - 5/3/2020]</a></div>
-    <div class="announce_message req_inst">Click "Post a note" anytime to create a note related to this resource. (you can review its content before posting)</div>
-    <div class="edit" style="float: left;"><input class="title" type="text"></div>
-    <div class="req_inst reorder_resource hide" id="resource_drag_field_k9twiqve55u57z"></div>
-    <div class="req_inst reorder_resource_disabled hide"></div>
-  </td>
-  <td class="resource_date_col hide_on_drag ">
-    <div class="view" style="text-align: center; line-height: 2">May 3, 2020</div>
-    <div class="edit"><input class="date hasDatepicker" type="text" id="dp1592366163417"></div>
-  </td>
-  
-  <td class="req_inst resource_action_col hide_on_drag">
-    <div class="view btn-group">
-      <button class="btn_edit btn btn-small" data-original-title="Edit" rel="tooltip">
-        <i class="icon-pencil"></i>&nbsp;&nbsp;Edit
-      </button>
-      <button class="btn_announce btn btn-small" data-original-title="Post a note" rel="tooltip">
-        <i class="icon-list-alt"></i>&nbsp;&nbsp;Post a note
-      </button>
-      <button class="btn_delete btn btn-small" data-pats="resources_item_delete_button" data-original-title="Are you sure?" data-content="
-                <button class='yes btn btn-primary' data-pats='resources_item_yes_button'>Yes</button>
-                <button class='no btn'>No</button>">
-        <i class="icon-trash"></i>&nbsp;&nbsp;Delete
-      </button>
-    </div>
-    <button class="edit btn_save btn btn-small">
-      <i class="icon-ok-circle"></i> Done
-    </button>
-  </td>
-</tr><tr class="resource resource_row ui-state-default" data-pats="resources_item" data-cid="kahyz95wxz03uu">
-  <td id="kahyz95wxz03uu">
-    <i class="ajax_loader"></i>
-    <div class="view title"><a href="https://drive.google.com/file/d/19CHGHl14bG9iY5HV3FICc24xLZZvtrAt/view?usp=sharing" class="resource_title" data-pats="resources_item_link" target="_blank" onmousedown="dataLayer.push({'event': 'eventTracker', 'eventCat': 'Outbound Links', 'eventAct': 'Click', 'eventLbl': 'drive.google.com/file/d/19CHGHl14bG9iY5HV3FICc24xLZZvtrAt/view?usp=sharing', 'eventVal': 0});">Class Record [Class 11 - 5/10/2020]</a></div>
-    <div class="announce_message req_inst">Click "Post a note" anytime to create a note related to this resource. (you can review its content before posting)</div>
-    <div class="edit" style="float: left;"><input class="title" type="text"></div>
-    <div class="req_inst reorder_resource hide" id="resource_drag_field_kahyz95wxz03uu"></div>
-    <div class="req_inst reorder_resource_disabled hide"></div>
-  </td>
-  <td class="resource_date_col hide_on_drag ">
-    <div class="view" style="text-align: center; line-height: 2">May 10, 2020</div>
-    <div class="edit"><input class="date hasDatepicker" type="text" id="dp1592366163418"></div>
-  </td>
-  
-  <td class="req_inst resource_action_col hide_on_drag">
-    <div class="view btn-group">
-      <button class="btn_edit btn btn-small" data-original-title="Edit" rel="tooltip">
-        <i class="icon-pencil"></i>&nbsp;&nbsp;Edit
-      </button>
-      <button class="btn_announce btn btn-small" data-original-title="Post a note" rel="tooltip">
-        <i class="icon-list-alt"></i>&nbsp;&nbsp;Post a note
-      </button>
-      <button class="btn_delete btn btn-small" data-pats="resources_item_delete_button" data-original-title="Are you sure?" data-content="
-                <button class='yes btn btn-primary' data-pats='resources_item_yes_button'>Yes</button>
-                <button class='no btn'>No</button>">
-        <i class="icon-trash"></i>&nbsp;&nbsp;Delete
-      </button>
-    </div>
-    <button class="edit btn_save btn btn-small">
-      <i class="icon-ok-circle"></i> Done
-    </button>
-  </td>
-</tr><tr class="resource resource_row ui-state-default" data-pats="resources_item" data-cid="kaj1s07y2qs4c0">
-  <td id="kaj1s07y2qs4c0">
-    <i class="ajax_loader"></i>
-    <div class="view title"><a href="https://drive.google.com/file/d/1T1u9wjrZZkTLxLCorAX35LjwFGqpIx71/view?usp=sharing" class="resource_title" data-pats="resources_item_link" target="_blank" onmousedown="dataLayer.push({'event': 'eventTracker', 'eventCat': 'Outbound Links', 'eventAct': 'Click', 'eventLbl': 'drive.google.com/file/d/1T1u9wjrZZkTLxLCorAX35LjwFGqpIx71/view?usp=sharing', 'eventVal': 0});">Class Record [Class 12 - 5/22/2020]</a></div>
-    <div class="announce_message req_inst">Click "Post a note" anytime to create a note related to this resource. (you can review its content before posting)</div>
-    <div class="edit" style="float: left;"><input class="title" type="text"></div>
-    <div class="req_inst reorder_resource hide" id="resource_drag_field_kaj1s07y2qs4c0"></div>
-    <div class="req_inst reorder_resource_disabled hide"></div>
-  </td>
-  <td class="resource_date_col hide_on_drag ">
-    <div class="view" style="text-align: center; line-height: 2">May 22, 2020</div>
-    <div class="edit"><input class="date hasDatepicker" type="text" id="dp1592366163419"></div>
-  </td>
-  
-  <td class="req_inst resource_action_col hide_on_drag">
-    <div class="view btn-group">
-      <button class="btn_edit btn btn-small" data-original-title="Edit" rel="tooltip">
-        <i class="icon-pencil"></i>&nbsp;&nbsp;Edit
-      </button>
-      <button class="btn_announce btn btn-small" data-original-title="Post a note" rel="tooltip">
-        <i class="icon-list-alt"></i>&nbsp;&nbsp;Post a note
-      </button>
-      <button class="btn_delete btn btn-small" data-pats="resources_item_delete_button" data-original-title="Are you sure?" data-content="
-                <button class='yes btn btn-primary' data-pats='resources_item_yes_button'>Yes</button>
-                <button class='no btn'>No</button>">
-        <i class="icon-trash"></i>&nbsp;&nbsp;Delete
-      </button>
-    </div>
-    <button class="edit btn_save btn btn-small">
-      <i class="icon-ok-circle"></i> Done
-    </button>
-  </td>
-</tr></tbody>
-    <!-- only show this footer when more than 10 resources -->
-    <tfoot id="resource_table_footer" class="resource_show_all_footer" style="display: none;">
-      <tr>
-        <td>
-          <a href="#" id="show_more_resources" class="view_resources_link">See all <span class="page_boundary total"></span> resources</a>
-          <a href="#" id="show_less_resources" class="view_resources_link" style="display: none;">Show fewer resources</a>
-        </td>
-      </tr>
-    </tfoot>
-  </table>
-  
-  <div class="tutorial hide alert alert-info" style="margin-top: 5px;">
-    <h4 class="alert-heading">
-      Nothing has been added to the Lecture Notes section, yet.
-      Stay tuned!
-    </h4>
-  </div>
-  <div id="public-resources-alert" class="hide alert alert-info" style="margin-top: 5px;">
-    <h4 class="alert-heading">
-      This resource section is not public for this course.
-    </h4>
-  </div>
-  <!-- <div class="section_view_links_wrapper">
-    <a href="#" id="show_more_resources" class="view_resources_link">Show all resources</a>
-    <a href="#" id="show_less_resources" class="view_resources_link">Show fewer resources</a>
-  </div> -->
-  <!-- PAGINATION AT THE BOTTOM OF THE LIST -->
-  <!-- only show these toggles when more than 10 resources -->
-  <div class="resource_pagination resource_pagination_bottom clearfix" style="display: none;">
-    <span class="resource_pagination_numbers pull-left">
-      <span class="page_boundary starting"></span> - <span class="page_boundary ending"></span> of <span class="page_boundary total"></span>
-    </span>
-    <div class="resource_pagination_toggles pull-left clearfix">
-      <button class="resource_pagination_toggle pull-left previous_page">
-        &lt;
-      </button>
-      <button class="resource_pagination_toggle pull-left next_page">
-        &gt;
-      </button>
-    </div>
-  </div>
-  
-  <div class="modal hide add_link_modal" id="add_link" style="width: 480px; margin-left:-240px; margin-top: -80px;">
-    <div class="modal-header">
-      <button type="button" class="close" data-dismiss="modal">×</button>
-      <h3>Add a link</h3>
-    </div>
-    <div class="modal-body clearfix">
-      <div class="input_wrapper">
-        <label>Title</label>
-        <input type="text" class="link_title" placeholder="Please select a title for your link">
-      </div>
-      <div class="input_wrapper">
-        <label>Link</label>
-        <input type="text" class="link_address" value="http://" onclick="select()">
-      </div>
-      <div class="error_message" style="color: red; text-align: center; font-weight: 500; margin-top: 5px;">
-        <p class="error_text" style="display:none">An error occurred</p>
-      </div>
-    </div>
-    <div class="modal-footer">
-      <button data-dismiss="modal" class="btn" style="margin-right: 5px;">Cancel
-      </button>
-      <button class="btn_confirm_add_link btn btn-primary">Post Link
-      </button>
-    </div>
-  </div>
-</div>
-    </body>
-  </html>
+
+<head>
+    <title>Resources</title>
+    <meta charset="UTF-8">
+    <meta name="author" content="Tanvir Rahman">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+</head>
+
+<body style="font-size: large;">
+        <h2>Lectures Taken Online by Samiul Sir</h2>
+        <table >
+            <thead>
+                <tr>
+                    <th>Lecture Notes</th>
+                    <th>Lecture Date</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td><a href="https://drive.google.com/file/d/1hAr1kCHkoGziZd5pIWOwb2S9-R1ZBDlK">Class Record [Class 1 - 3/27/2020] </a></td>
+                    <td><div style="text-align: center; line-height: 2">Mar 27, 2020</div></td>
+                </tr>
+                <tr><td><a href="https://drive.google.com/file/d/1MwEXhKDMfxZ2yiOZQ8_Y-kb1bwbFjCPt">Class Record [Class 2 - 3/29/2020] </a></td>
+                    <td><div style="text-align: center; line-height: 2">Mar 29, 2020</div></td>
+                </tr>
+                <tr><td><a href="https://drive.google.com/file/d/1j2D_V9cLXBdGVRy8aVyEtyp1Fpb0ZmF1">Class Record [Class 3 - 4/3/2020] </a></td>
+                    <td><div style="text-align: center; line-height: 2">Apr 3, 2020</div></td>
+                </tr>
+                <tr><td><a href="https://drive.google.com/file/d/1bciPagoQR8rF0KeiZFxbZJ32-k1RYKjz">Class Record [Class 4 - 4/5/2020] </a></td>
+                    <td><div style="text-align: center; line-height: 2">Apr 5, 2020</div></td>
+                </tr>
+                <tr><td><a href="https://drive.google.com/file/d/1bMfdAAm_iqAn43PZktsMbuk22N94C1gg">Class Record [Class 5 - 4/10/2020] </a></td>
+                    <td><div style="text-align: center; line-height: 2">Apr 10, 2020</div></td>
+                </tr>
+                <tr><td><a  href="https://drive.google.com/file/d/1wjOIoWraxt2RdSIu_o-kODprpci7jPmg">Class Record [Class 6 - 4/17/2020] </a></td>
+                    <td><div style="text-align: center; line-height: 2">Apr 17, 2020</div></td>
+                </tr>
+                <tr><td><a href="https://drive.google.com/file/d/1HT5gIWD2vFGykA4ZvMH1m3BBG5N4ypGM">Class Record [Class 7 - 4/19/2020] </a></td>
+                    <td><div style="text-align: center; line-height: 2">Apr 19, 2020</div></td>
+                </tr>        
+                <tr><td><a href="https://drive.google.com/file/d/1mnMUiO_97hUxDI5t7Ariz5RmjF48zUM6">Class Record [Class 8 - 4/24/2020] </a></td>
+                    <td><div style="text-align: center; line-height: 2">Apr 24, 2020</div></td>
+                </tr>
+                <tr><td><a href="https://drive.google.com/file/d/1g6nzrXjfaGEuPLnAJOaEgGoIBNEHW42U">Class Record [Class 9 - 4/27/2020] </a></td>
+                    <td><div style="text-align: center; line-height: 2">Apr 27, 2020</div></td>
+                </tr>
+                <tr><td><a href="https://drive.google.com/file/d/1gR4wRwSnS7UgFS6DeO4pVmq-rDlSyZ3t">Class Record [Class 10 - 5/3/2020] </a></td>
+                    <td><div style="text-align: center; line-height: 2">May 3, 2020</div></td>
+                </tr>
+                <tr><td><a href="https://drive.google.com/file/d/19CHGHl14bG9iY5HV3FICc24xLZZvtrAt">Class Record [Class 11 - 5/10/2020] </a></td>
+                    <td><div style="text-align: center; line-height: 2">May 10, 2020</div></td>
+                </tr>
+                <tr><td><a href="https://drive.google.com/file/d/1T1u9wjrZZkTLxLCorAX35LjwFGqpIx71">Class Record [Class 12 - 5/22/2020] </a></td>
+                    <td><div style="text-align: center; line-height: 2">May 22, 2020</div></td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <table >
+            <thead> <th>Materials</th></thead>
+            <tbody>
+                <tr><td><a href="https://piazza.com/class_profile/get_resource/k8catn8glan3tc/k8cg5174id418r"> Class Design Inheritance</a></td></tr>
+                <tr><td><a href="https://drive.google.com/drive/u/0/folders/0BwPLGFGIZ-euMVRpZHczaHVJSzA"> Java Resources by Kaonain Sir</a></td></tr>
+                <tr><td><a href="https://piazza.com/class_profile/get_resource/k8catn8glan3tc/k96w4aqu6lu3w3"> Polymorphism</a></td></tr>
+                <tr><td><a href="https://piazza.com/class_profile/get_resource/k8catn8glan3tc/k96wjd80x2a347"> Polymorphism is Fun.docx</a></td></tr>
+                    
+            </tbody>
+        </table>
+</body>
+</html>

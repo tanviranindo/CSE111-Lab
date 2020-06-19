@@ -1,3 +1,6 @@
+Preview Sites - 
+01. <a href = "https://tanviranindo.github.io/CSE111-Lab/resources.html"> Resource Link </a>
+02. <a href = "https://tanviranindo.github.io/CSE111-Lab/index.html"> Main Preview Site </a>
 <table>
   <tr>
     <td>Questions: </td>
